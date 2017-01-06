@@ -1,0 +1,6 @@
+version: '2'
+services:
+  eureka-server:
+    image: rohling/eureka-server
+    ports:
+      - "8761:8761"
